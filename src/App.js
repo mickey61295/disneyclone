@@ -4,9 +4,6 @@ import Login from './components/Login'
 import Header from './components/Header'
 import Home from './components/Home'
 import Detail from './components/Detail'
-import { addLocDataToDb } from './firebase'
-import movies from './disneyPlusMoviesData.json'
-import { useEffect } from 'react'
 
 const App = () => {
 	return (
