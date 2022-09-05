@@ -6,6 +6,7 @@ import Home from './components/Home'
 import Detail from './components/Detail'
 
 const App = () => {
+	
 	return (
 		<Router>
 			<Header />
