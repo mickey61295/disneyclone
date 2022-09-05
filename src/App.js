@@ -9,9 +9,6 @@ import movies from './disneyPlusMoviesData.json'
 import { useEffect } from 'react'
 
 const App = () => {
-	useEffect(() => {
-		addLocDataToDb('movies', movies)
-	}, [])
 	return (
 		<Router>
 			<Header />
